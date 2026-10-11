@@ -1,5 +1,5 @@
 {
-  "description": "Problem 4 MCP smoke test: each Campus Customs MCP tool was called from the vibe coder, and its output was checked against data/campus_customs.db. One entry per tool; the same evidence is also in output/mcp_smoke/<tool_name>.json.",
+  "description": "Problem 4 MCP smoke test: each Campus Customs MCP tool was called from the vibe coder, and its output was checked against data/campus_customs.db. One entry per tool.",
   "tools": {
     "get_incoming_payment_tickets": {
       "prompt_to_vibe_coder": "We are building an MPC server now in mpc_server/ use FastMCP and i want it to talk to data/campus_customs_new.bd. every agent will use the tools in this server. i want to add three tools to look at the tickets in the database. How about they are payment outgoing, payment incoming and type (so like, rent, inventory sale, etc.) , use only information from the database, dont invent. in harness.md list my tools and include what table it reads, what ticket it unlocks and a single sentence on why the tool is right for the ticket, and make it specific to the ticket. add mcp_server/README.md to explain what the mcp server is for, the database file it uses and the three tools it has",

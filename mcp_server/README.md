@@ -80,4 +80,4 @@ python3 -m venv .venv
 python3 reset_db.py
 .venv/bin/python mcp_server/smoke_test.py
 ```
-This launches the server from `.mcp.json`, calls the three ticket-overview tools, and checks each value against `data/campus_customs.db`. It writes the evidence to `output/mcp_smoke/<tool_name>.json`.
+This launches the server from `.mcp.json`, calls the three ticket-overview tools, and checks each value against `data/campus_customs.db`. It writes the evidence to `output/mcp_smoke/<tool_name>.json` (a local, git-ignored folder). The submitted evidence for all three tools is combined in `output/mcp_smoke.json`.

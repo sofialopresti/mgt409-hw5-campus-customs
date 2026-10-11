@@ -21,3 +21,10 @@ frontend/dist/
 .claude/
 
 # NOTE: data/*.db is intentionally NOT ignored. Both databases are part of the repo.
+
+# Generated at runtime, kept out of the submission so the repo matches the required layout:
+# the board is rebuilt by the MCP server, and the per-tool smoke files are combined in output/mcp_smoke.json.
+output/board.json
+output/board.md
+output/db_viewer.html
+output/mcp_smoke/
