@@ -1,0 +1,6 @@
+fastmcp
+pydantic-ai-slim[openai]
+openai
+python-dotenv
+fastapi
+uvicorn[standard]

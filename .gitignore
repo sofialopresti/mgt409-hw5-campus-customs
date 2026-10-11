@@ -1,0 +1,23 @@
+# Secrets: never commit the real key. Copy .env.example to .env instead.
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Vite
+node_modules/
+frontend/dist/
+
+# Local logs and scratch files
+*.log
+*.json.tmp
+
+# Editor / OS / local tool config
+.DS_Store
+.claude/
+
+# NOTE: data/*.db is intentionally NOT ignored. Both databases are part of the repo.
